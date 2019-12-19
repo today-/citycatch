@@ -1,0 +1,50 @@
+{
+  "extends": [
+    "tslint:latest"
+  ],
+  "rules": {
+    "jsx-no-multiline-js": false,
+    "trailing-comma": false,
+    "member-access": false,
+    "no-console": false,
+    "interface-over-type-literal": false,
+    "interface-name": false,
+    "no-implicit-dependencies": false,
+    "no-var-requires": false,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "no-empty-interface": false,
+    "no-submodule-imports": false,
+    "no-trailing-whitespace": true,
+    "no-shadowed-variable": false,
+    "no-empty": false,
+    "no-consecutive-blank-lines": [true],
+    "semicolon": [true, "always"],
+    "max-line-length": [true, { "limit": 120, "ignore-pattern": "//"}],
+    "variable-name": ["check-format", "allow-leading-underscore"],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape",
+      "jsx-double"
+    ],
+    "no-eval": true,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "arrow-parens": false
+  },
+  "jsRules": {
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape",
+      "jsx-double"
+    ],
+    "trailing-comma": false,
+    "eofline": false,
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "space-before-function-paren": false,
+    "no-empty": false
+  }
+}

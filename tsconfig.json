@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2015",
+      "es2018.promise",
+      "es2017.typedarrays"
+    ],
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noUnusedLocals": false,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "types": [
+      "node"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "~*": [
+        "src*"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

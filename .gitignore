@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+public/bundle.*
+public/global.css
+public/report.html
+.idea
+/.env
+/package-lock.json

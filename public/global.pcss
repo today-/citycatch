@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700&display=swap&subset=cyrillic');
+
+@tailwind base;
+@tailwind components;
+
+html {
+  @apply font-sans;
+}
+
+body {
+  @apply antialiased bg-gray-200 overflow-x-hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+.container {
+  overflow-y: initial;
+}
+
+.blinking {
+  &::after {
+    @apply text-primary;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    border-radius: 50%;
+    animation: catchBlinking 1s infinite ease-in-out;
+    content: '';
+  }
+}
+
+@keyframes catchBlinking {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+@keyframes catchRotate {
+  to {
+    transform: rotate(405deg);
+  }
+}
