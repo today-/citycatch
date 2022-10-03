@@ -12,8 +12,6 @@ CityCatch - это хорошо всем знакомая игра в "[Горо
 
 Каждая новая игра начинается против компьютерного соперника, а затем к ней могут присоединяться живые игроки (до 5 человек).
 
-[Играть](https://citycatch.xyz/)
-
 ---
 
 CityCatch is a variation of "[Word chain](https://en.wikipedia.org/wiki/Word_chain)" game, but with some differences.
@@ -27,5 +25,3 @@ Time is also limited: those who haven't answer during a minute are eliminated.
 The last remaining player is declared the winner and gets twice the points for their gained kilometers.
 
 Each new game begins against a computer opponent, and then it can be joined by live players (up to 5 people).
-
-[Start playing](https://citycatch.xyz/)
